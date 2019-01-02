@@ -1,0 +1,10 @@
+parsing
+flex pass 1
+Output pass
+Writing prg file: C:\C64\Tools\KickAssembler\Mini_Projects\Nine_Sprites\bin\helpers_Compiled.prg
+
+Memory Map
+----------
+
+Writing Vice symbol file: C:\C64\Tools\KickAssembler\Mini_Projects\Nine_Sprites\bin\helpers.vs
+Writing Symbol file: bin\helpers.sym

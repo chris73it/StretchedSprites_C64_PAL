@@ -1,0 +1,32 @@
+.label vic2_interrupt_status_register=$d019
+.label cia1_interrupt_control_register=$dc0d
+.label go_lower=$8cd
+.label make_fd_one=$c4b
+.label vic2_screen_control_register1=$d011
+.label vic2_screen_control_register2=$d016
+.label main=$80e
+.namespace sprites {
+  .label vertical_stretch_bits=$d017
+  .label horizontal_stretch_bits=$d01d
+  .label positions=$d000
+  .label position_x_high_bits=$d010
+  .label colors=$d027
+  .label pointers=$7f8
+  .label enable_bits=$d015
+}
+.label exiting_irq=$c4f
+.label loop=$86c
+.label make_fd_zero=$c3b
+.label border=$d020
+.label increase_fe=$c30
+.label ld_y_above=$8c6
+.label decrease_fe=$c42
+.label vic2_rasterline_register=$d012
+.label draw_colored_lines=$8ec
+.label cia2_interrupt_control_register=$dd0d
+.label reset_fc=$c25
+.label background=$d021
+.label irq1=$86f
+.label adjust_initial_delay=$c2c
+.label vic2_interrupt_control_register=$d01a
+.label last_byte_of_vic2_bank=$3fff

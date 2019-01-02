@@ -1,0 +1,38 @@
+.label vic2_interrupt_status_register=$d019
+.label cia1_interrupt_control_register=$dc0d
+.label vic2_screen_control_register1=$d011
+.label vic2_screen_control_register2=$d016
+.label main=$80e
+.label wait_8_rows_with_20_cycles_bad_lines=$a33
+.namespace sprites {
+  .label vertical_stretch_bits=$d017
+  .label horizontal_stretch_bits=$d01d
+  .label positions=$d000
+  .label position_x_high_bits=$d010
+  .label colors=$d027
+  .label pointers=$7f8
+  .label enable_bits=$d015
+}
+.label wait_6_good_lines_minus_jsr_and_rts=$9f9
+.label exiting_irq=$99c
+.label ytemp=$9bb
+.label wait_1_row_with_20_cycles_bad_line=$a0c
+.label loop=$8fe
+.label wait_one_bad_line_minus_3=$9c4 {
+}
+.label xtemp=$9b9
+.label border=$d020
+.label wait_2_rows_with_20_cycles_bad_lines=$a16
+.label wait_one_good_line_minus_jsr_and_rts=$9e4 {
+}
+.label vic2_rasterline_register=$d012
+.label cia2_interrupt_control_register=$dd0d
+.label wait_one_bad_line=$9bd {
+}
+.label wait_4_rows_with_20_cycles_bad_lines=$a23
+.label background=$d021
+.label irq1=$901
+.label atemp=$9b7
+.label vic2_interrupt_control_register=$d01a
+.label wait_one_good_line=$9c9 {
+}

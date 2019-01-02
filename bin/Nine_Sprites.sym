@@ -1,0 +1,26 @@
+.label vic2_interrupt_status_register=$d019
+.label cia1_interrupt_control_register=$dc0d
+.label vic2_screen_control_register1=$d011
+.label vic2_screen_control_register2=$d016
+.label main=$80e
+.namespace sprites {
+  .label vertical_stretch_bits=$d017
+  .label horizontal_stretch_bits=$d01d
+  .label positions=$d000
+  .label position_x_high_bits=$d010
+  .label colors=$d027
+  .label pointers=$7f8
+  .label enable_bits=$d015
+}
+.label exiting_irq=$2cdb
+.label ytemp=$2cfa
+.label loop=$861
+.label xtemp=$2cf8
+.label border=$d020
+.label vic2_rasterline_register=$d012
+.label cia2_interrupt_control_register=$dd0d
+.label background=$d021
+.label irq1=$864
+.label atemp=$2cf6
+.label vic2_interrupt_control_register=$d01a
+.label last_byte_of_vic2_bank=$3fff
